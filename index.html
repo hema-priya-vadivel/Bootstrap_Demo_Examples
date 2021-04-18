@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 style="text-align: center;">Bootstrap NavBar</h2>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+      Bootstrap Examples</a> 
+     <ul class="navbar-nav">
+       <li class="nav-item">
+         <a class="nav-link" href="https://www.youtube.com">
+           YouTube
+         </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="https://www.google.com">
+          Google
+        </a>
+      </li>
+     </ul>     
+  </nav> 
+
+  <div class="container">
+    <h2 style="text-align: center;">Bootstrap ListGroup</h2>
+      <a href="https://www.linkedin.com/in/" class="list-group-item list-group-item-action" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/" class="list-group-item list-group-item-action" target="_blank">Twitter</a>
+      <a href="https://www.hackerrank.com/" class="list-group-item list-group-item-action" target="_blank">HackerRank</a>
+      <a href="https://www.sololearn.com/" class="list-group-item list-group-item-action" target="_blank">Sololearn</a>
+      <a href="https://github.com/" class="list-group-item list-group-item-action" target="_blank">Github</a>
+  </div>
+  
+  <div class="row" style="padding: 30px;">
+    <h2 style="text-align: center;">Bootstrap Card</h2>
+    <div class="column">
+      <div class="card">
+        <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar5.png" style="width: 100%;">
+        <div class="card-body">
+          <h4 class="card-title">Suzhuka😁</h4>
+          <p class="card-text">Web Developer</p>
+          <a href="https://www.linkedin.com/in/" class="btn btn-primary stretch-link">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">          
+        <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar5.png" style="width: 100%;">
+        <div class="card-body">
+          <h4 class="card-title">Suzhuka😁</h4>
+          <p class="card-text">Web Developer</p>
+          <a href="https://twitter.com/" class="btn btn-primary stretch-link">Twitter</a>
+        </div></div>
+    </div>
+
+    <div class="column">
+      <div class="card">          
+        <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar5.png" style="width: 100%;">
+        <div class="card-body">
+          <h4 class="card-title">Suzhuka😁</h4>
+          <p class="card-text">Web Developer</p>
+          <a href="https://www.hackerrank.com/" class="btn btn-primary stretch-link">HackerRank</a>
+        </div></div>
+    </div>
+
+    <div class="column">
+      <div class="card">          
+        <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar5.png" style="width: 100%;">
+        <div class="card-body">
+          <h4 class="card-title">Suzhuka😁</h4>
+          <p class="card-text">Web Developer</p>
+          <a href="https://www.sololearn.com/" class="btn btn-primary stretch-link">SoloLearn</a>
+        </div></div>
+    </div>
+
+
+    <div class="column">
+      <div class="card">          
+        <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar5.png" style="width: 100%;">
+        <div class="card-body">
+          <h4 class="card-title">Suzhuka😁</h4>
+          <p class="card-text">Web Developer</p>
+          <a href="https://github.com/" class="btn btn-primary stretch-link">GitHub</a>
+        </div></div>
+    </div>
+  </div>  
+  </div>
+
+
+  <div class="container"> 
+    <h2 style="text-align: center;">Bootstrap Forms</h2>
+    <form action="action_page.php" class="was-validated"> 
+     <div class="form group"> 
+      <label for="uname">Username</label> 
+      <input type="text" class="form-control" id="uname" placeholder="Enter the Username" name="uname" required> 
+      <div class="valid-feedback">
+        Valid 
+      </div> 
+      <div class="invalid-feedback">
+        Please fill out the field.
+      </div> 
+     </div> 
+     <div class="form group"> 
+      <label for="pwd">Password</label> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter the Password" name="pwd" required> 
+      <div class="valid-feedback">
+        Valid 
+      </div> 
+      <div class="invalid-feedback">
+        Please fill out the field.
+      </div> 
+     </div> 
+     <div class="form group form-check"> 
+      <label class="form-check-label"><input class="form-check-label" type="checkbox" name="remember" required>I agree
+       <div class="valid-feedback">
+         Valid 
+       </div> 
+       <div class="invalid-feedback">
+         Check this box to continue. 
+       </div> 
+       </label>
+     </div> 
+     <button type="submit" class="btn btn-primary">Submit</button> 
+    </form> 
+   </div>
+
+
+
+   <div class="container"> 
+    <h2 style="text-align: center;">Bootstrap Modal</h2>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> Open </button> 
+    <div class="modal" id="myModal"> 
+     <div class="modal-dialog"> 
+      <div class="modal-content"> 
+       <div class="modal-header"> 
+        <h4 class="modal-title">Hi there!😃👀</h4> 
+        <button type="button" class="close" data-dismiss="modal">&times;</button> 
+       </div> 
+       <div class="modal-footer"> 
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+
+
+   <div class="container">
+    <h2 style="text-align: center;">Bootstrap Collapse</h2>
+    <p>Click the button below to show content!</p>
+    <button type="button" href="#test" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test">Collapse</button>
+    <div id="test" class="collapse">
+      Social media are interactive technologies that allow the creation or sharing/exchange of information, ideas, career interests, and other forms of expression via virtual communities and networks.While challenges to the definition of social media arise due to the broad variety of stand-alone and built-in social-media services currently available, there are some common features
+    </div>
+
+  </div>
+
+  <h2 style="text-align: center;">Bootstrap Carousel</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ul> 
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.w3schools.com/bootstrap4/la.jpg" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York">
+      </div>
+    </div> 
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> 
+
+</body>
+</html>
